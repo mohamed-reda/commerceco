@@ -1,0 +1,101 @@
+
+S:\development\flutter2020\commerceco>strapi new server
+Creating a new Strapi application at S:\development\flutter2020\commerceco\server.
+
+? Choose your installation type
+? Choose your installation type Custom (manual settings)
+? Choose your default database client
+? Choose your default database client mongo
+? Database name: server
+? Database name: server
+? Host: (127.0.0.1)
+//////////
+mongodb+srv://Mohamed-Reda:<password>@clusterofcomerceco.ypa8a.mongodb.net/<dbname>?retryWrites=true&w=majority
+cope and run @clusterofcomerceco.ypa8a.mongodb.net
+? Host: @clusterofcomerceco.ypa8a.mongodb.net
+
+///////////
+? +srv connection: true
+///////////
+ Port (It will be ignored if you enable +srv): (27017)
+enter to agree
+///////////
+the same with admin at strapi
+ Username: Mohamed-Reda
+ Password:123456780
+///////////
+Authentication database (Maybe "admin" or blank):
+enter to agree
+///////////
+? Enable SSL connection: (y/N) y
+? Enable SSL connection: Yes
+-----------------------------------------------------------------------------------------------
+out put
+(node:15736) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring en
+gine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+
+Creating a project with custom database options.
+Creating files.
+Dependencies installed successfully.
+
+Your application was created at S:\development\flutter2020\commerceco\server.
+
+Available commands in your project:
+
+  yarn develop
+  Start Strapi in watch mode.
+
+  yarn start
+  Start Strapi without watch mode.
+
+  yarn build
+  Build Strapi admin panel.
+
+  yarn strapi
+  Display all available commands.
+
+You can start by doing:
+
+  cd S:\development\flutter2020\commerceco\server
+  yarn develop
+
+
+///////////
+S:\development\flutter2020\commerceco> cd server
+
+S:\development\flutter2020\commerceco\server> strapi develop
+
+
+///////////
+///////////
+///////////
+///////////
+///////////
+
+S:\development\flutter2020\commerceco\server>strapi develop
+Building your admin UI with development configuration ...
+
+√ Webpack
+  Compiled successfully in 40.13s
+
+
+ Project information
+
+┌────────────────────┬──────────────────────────────────────────────────┐
+│ Time               │ Sun Jul 26 2020 06:00:04 GMT+0200 (Eastern Euro… │
+│ Launched in        │ 6809 ms                                          │
+│ Environment        │ development                                      │
+│ Process PID        │ 15512                                            │
+│ Version            │ 3.1.0-alpha.1 (node v12.18.2)                    │
+│ Edition            │ Community                                        │
+└────────────────────┴──────────────────────────────────────────────────┘
+
+ Actions available
+
+One more thing...
+Create your first administrator � by going to the administration panel at:
+
+┌─────────────────────────────┐
+│ http://localhost:1337/admin │
+└─────────────────────────────┘
+
